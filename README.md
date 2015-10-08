@@ -1,3 +1,19 @@
+# Building Minimal Docker Image for Rails App
+
+After running
+```
+docker build -t ruby-rails-sample .
+```
+
+next run
+```
+docker run ruby-rails-sample
+```
+
+From http://blog.kontena.io/building-minimal-docker-image-for-rails/
+
+From this point on it's the original docs from Heroku
+
 # ruby-rails-sample
 
 This is a simple Ruby app using the [Rails](http://rubyonrails.org) framework.
